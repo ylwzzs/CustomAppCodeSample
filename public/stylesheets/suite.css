@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #FEFEFA;
+    color:#37352F;
+    font-family: Manrope, 'Avenir Next',Avenir, -apple-system, 'PingFang SC' ,Helvetica, Arial, sans-serif;
+    font-size:16px;
+    line-height: 1.414;
+}
+a{
+    text-decoration: none;
+    color:#37352F;
+}
+
+.big-logo{
+    background-image: url('../images/suite/suite-logo-big.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 114px;
+    height: 120px;
+}
+
+.nav{
+    width:1000px;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-logo{
+    
+    /* width:170px;
+    height:28px; */
+}
+.nav-logo-image{
+    vertical-align: top;
+}
+.nav-action{
+    font-size: 14px;
+    align-items: center;
+}
+.nav-action-link{
+    margin-left: 12px;
+}
+.main{
+    width:1000px;
+    min-height: 610px;
+    margin:120px auto 60px;
+    text-align: center;    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.main::before{
+    content: " ";
+    background-image: url(../images/suite/suite-left.svg);
+    background-size: contain;
+    width: 313px;
+    height:606px;
+    position: absolute;
+    left: -100px;
+    top:0;
+}
+.main::after{
+    content: " ";
+    background-image: url(../images/suite/suite-right.svg);
+    background-size: contain;
+    width: 298px;
+    height:571px;
+    position: absolute;
+    right: -100px;
+    top:0;
+}
+.main-logo{
+    margin:0 auto;
+}
+.main-hero{
+    font-family: 'PingFang SC';
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 82px;
+    text-align: center;
+    color: #37352F;
+    margin-top: 40px;
+}
+.main-install{
+    margin-top:40px;
+}
+.main-install-button{
+    display: block;
+    background-image: url(../images/suite/install_blue_middle_2x.png);
+    background-size: 200px 40px;
+    width:200px;
+    height:40px;
+    margin:0 auto;
+}
+
+.install-success{
+    padding:150px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.install-success-logo{
+
+}
+.install-success-info{
+    margin: 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    border-bottom:1px solid rgba(0,0,0,0.06)
+}
+.install-success-logo {
+    width:80px;
+    height:80px;
+}
+.install-success-corp{
+    font-size:48px;
+    font-family: 'PingFang SC';
+    font-weight: 600;
+    text-align: center;
+    color: #37352F;
+}
+.install-success-corp::before{
+    content: "·";
+    font-size: 44px;
+    opacity: 0.6;
+    margin: 0 15px;
+}
+.install-success-action{
+    margin-top: 40px;
+    text-align: center;
+}
+.install-success-button{
+    display: inline-block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 119%;
+
+    background: rgba(255, 225, 105, 0.44);
+    border: 3px solid #FFCC00;
+    border-radius: 5px;
+}

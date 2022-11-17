@@ -1,0 +1,13 @@
+module.exports = {
+    // 模板信息 - 基本信息 中复制以下参数
+    SuiteID : '',
+    SuiteSecret: '',
+    
+    // 模板信息 - 回调配置 中复制以下参数
+    Token: "",
+    EncodingAESKey: "",
+
+    // 代开发模板回调 URL 的path
+    CallBackPath:''
+    
+}
