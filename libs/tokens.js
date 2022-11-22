@@ -24,7 +24,7 @@ module.exports = {
         console.log('更新 suite_ticket');
 
         return Promise.resolve().then(()=>{
-            localStorage.setItem('suite_ticket_time',new Date().valueOf() / 1000)
+            localStorage.setItem()
             localStorage.setItem('suite_ticket',suite_ticket)
         })
     },

@@ -128,3 +128,5 @@ dist
 .DS_Store
 configs/suite_config.js
 scratch/
+scratch/suite_ticket
+scratch/suite_ticket_time
