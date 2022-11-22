@@ -8,6 +8,6 @@ module.exports = {
     EncodingAESKey: "",
 
     // 代开发模板回调 URL 的path
-    CallBackPath:''
+    CallBackPath:'/command'
     
 }

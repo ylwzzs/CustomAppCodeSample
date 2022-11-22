@@ -24,8 +24,10 @@ module.exports = {
         console.log('更新 suite_ticket');
 
         return Promise.resolve().then(()=>{
-            localStorage.setItem()
+            
             localStorage.setItem('suite_ticket',suite_ticket)
+            localStorage.setItem('suite_ticket_time',Math.floor(Date.now() / 1000))
+
         })
     },
     // 读取 suite_ticket

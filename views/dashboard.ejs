@@ -18,8 +18,9 @@
     <div class="main" style="padding:15px;word-break: break-all;">
         <h3>基本信息</h3>
         <table class="table table-bordered table-striped" style="width:100%;">
+            
             <tr>
-                <td>模板 ID</td>
+                <td style="width:300px">模板 ID</td>
                 <td>
                     <%= suite_config.SuiteID %>
                 </td>
@@ -75,7 +76,7 @@
         <% corps.forEach(function(corp){%>
             <table class="table table-bordered table-striped" style="width:100%;">
                 <tr>
-                    <td>企业名称</td>    
+                    <td style="width:300px">企业名称</td>    
                     <td>
                         <%= corp.corp_name %>
                     </td>
